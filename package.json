@@ -1,0 +1,27 @@
+{
+  "name": "sapient-carousel-test",
+  "version": "1.0.0",
+  "description": "Carousel test for sapient",
+  "main": "index.js",
+  "author": "chrisfinch <chrisfinchy@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "storybook": "^1.0.0",
+    "typescript": "^3.3.4000",
+    "webpack": "^4.29.6",
+    "@storybook/react": "^5.0.5",
+    "@storybook/addon-actions": "^5.0.5",
+    "@storybook/addon-links": "^5.0.5",
+    "@storybook/addons": "^5.0.5",
+    "@babel/core": "^7.4.0",
+    "babel-loader": "^8.0.5"
+  },
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
